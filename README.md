@@ -28,9 +28,8 @@ $ npm install
 
 ### 3. Configuração de Variáveis de Ambiente
 Crie um arquivo .env na raiz do projeto:
-SEPOLIA_URL=https://eth-sepolia.g.alchemy.com/v2/SUA_CHAVE
+ALCHEMY_API_URL=https://eth-sepolia.g.alchemy.com/v2/SUA_CHAVE
 PRIVATE_KEY=SUA_CHAVE_PRIVADA
-ETHERSCAN_API_KEY=SUA_CHAVE_ETHERSCAN
 
 ### 4. Testes Automatizados
 Execute a suite de testes locais para validar a integração dos contratos:
